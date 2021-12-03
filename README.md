@@ -19,3 +19,10 @@ pip install img2pdf moviepy
 replace the  inference's code "transnetv2.py"
 
 use "python transnetv2.py ../test.mp4 --threshold 0.5 --pdf --frame-type triple" to get a pdf
+
+### TODO
+1. suport set a box area in the video
+2. faster pipeline
+3. better scence clip algorithm
+
+欢迎大家提出修改意见！
