@@ -1,4 +1,5 @@
 # course-video-to-doc
+Extract ppt of online course video with intelligent split shot algorithm
 用智能分镜头算法提取网上课程视频的ppt
 
 ### step-1 choose a good scence clip algorithm
