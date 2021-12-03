@@ -202,6 +202,8 @@ def main():
             print("not illegle frame_type,default end")
             scenes=list(scenes[:,1])
         if args.pdf:
+            if not os.path.exists("tmp"):
+                os.mkdir("tmp")
             clip=VideoFileClip(args.files[0])
             i=0
             for idx,frame in enumerate(clip.iter_frames()):
