@@ -18,7 +18,7 @@ docker build -t transnet -f inference/Dockerfile .
 ### step-3 video to doc
 pip install img2pdf moviepy 
 
-replace the  inference's code "transnetv2.py"
+replace the  inference's code "transnetv2.py" with our code inference/transnetv2.py
 
 use "python transnetv2.py ../test.mp4 --threshold 0.5 --pdf --frame-type triple" to get a pdf
 
