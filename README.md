@@ -26,7 +26,7 @@ pip install img2pdf moviepy
 replace the  inference's code `transnetv2.py` with our code `inference/transnetv2.py`
 
 ```python
-python transnetv2.py ../test.mp4 --threshold 0.5 --pdf --frame-type triple" to get a pdf
+python transnetv2.py ../test.mp4 --threshold 0.5 --pdf --frame-type triple # to get a pdf
 ```
 
 ### TODO
